@@ -26,8 +26,15 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import brainwave from './brainwave-symbol.svg'
+import apple from './apple.svg'
+import TODOLogo from './TODOLogo.svg'
+import spotifyIcon from './spotifyIcon.svg'
 
 export {
+    apple,
+    TODOLogo,
+    spotifyIcon,
     css,
     express,
     git,
@@ -49,6 +56,7 @@ export {
     car,
     estate,
     pricewise,
+    brainwave,
     snapgram,
     summiz,
     threads,

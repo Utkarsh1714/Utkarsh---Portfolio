@@ -1,9 +1,7 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,15 +13,15 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
+    brainwave,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    apple,
+    TODOLogo,
+    spotifyIcon
 } from "../assets/icons";
 
 export const skills = [
@@ -184,45 +182,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: brainwave,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Modern UI/UX Website',
+        description: 'First impressions matter! Aim for clean, visually appealing designs. Minimalism and simplicity are key—focus on essential elements and remove clutter.',
+        link: 'https://github.com/Utkarsh1714/Brainwave',
     },
     {
-        iconUrl: threads,
+        iconUrl: apple,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Apple IPhone 15 Clone',
+        description: 'The heart of the site lies in its ability to render 3D models. Whether it’s a character, a product, or an abstract creation, the React-Three.js combo ensures smooth and realistic visualization.',
+        link: 'https://github.com/Utkarsh1714/Apple-iPhone',
     },
     {
-        iconUrl: car,
+        iconUrl: TODOLogo,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'iTask - Your Task Planner',
+        description: 'iTask - Your Task Planner (Todo App) is a simple yet powerful tool designed to help users manage tasks, organize their responsibilities, and stay productive',
+        link: 'https://github.com/Utkarsh1714/Todo-App',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: spotifyIcon,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
+        name: 'Spotify Clone',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
